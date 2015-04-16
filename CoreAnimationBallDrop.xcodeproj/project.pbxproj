@@ -18,6 +18,8 @@
 		9315920717631F590001409A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315920617631F590001409A /* Default-568h@2x.png */; };
 		9315920A17631F590001409A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9315920917631F590001409A /* ViewController.m */; };
 		9315920D17631F590001409A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9315920B17631F590001409A /* ViewController.xib */; };
+		9315921417631FD50001409A /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315921317631FD50001409A /* ball.png */; };
+		931592161763204C0001409A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931592151763204C0001409A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		9315920817631F590001409A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9315920917631F590001409A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9315920C17631F590001409A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9315921317631FD50001409A /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		931592151763204C0001409A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931592161763204C0001409A /* QuartzCore.framework in Frameworks */,
 				931591F117631F590001409A /* UIKit.framework in Frameworks */,
 				931591F317631F590001409A /* Foundation.framework in Frameworks */,
 				931591F517631F590001409A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +61,8 @@
 		931591E117631F590001409A = {
 			isa = PBXGroup;
 			children = (
+				931592151763204C0001409A /* QuartzCore.framework */,
+				9315921317631FD50001409A /* ball.png */,
 				931591F617631F590001409A /* CoreAnimationBallDrop */,
 				931591EF17631F590001409A /* Frameworks */,
 				931591ED17631F590001409A /* Products */,
@@ -162,6 +169,7 @@
 				9315920517631F590001409A /* Default@2x.png in Resources */,
 				9315920717631F590001409A /* Default-568h@2x.png in Resources */,
 				9315920D17631F590001409A /* ViewController.xib in Resources */,
+				9315921417631FD50001409A /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
