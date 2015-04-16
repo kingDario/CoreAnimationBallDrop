@@ -40,7 +40,7 @@
     CAKeyframeAnimation *translation = [CAKeyframeAnimation animationWithKeyPath:keyPath];
     
     // Set animation duration and repeat
-    translation.duration = 1.5f;
+    translation.duration = 3.5f;
     translation.repeatCount = HUGE_VAL;
     translation.autoreverses = YES;
     
